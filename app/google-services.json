@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "414731488467",
+    "project_id": "university-application-vnr",
+    "storage_bucket": "university-application-vnr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414731488467:android:71d74be43ba8da4e011826",
+        "android_client_info": {
+          "package_name": "com.example.university_application_vnr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwL6PBNkGhKL56R4Z3LoLJMgdfAxpsFtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414731488467:android:4c077f3582fc147e011826",
+        "android_client_info": {
+          "package_name": "com.example.vnr_university"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwL6PBNkGhKL56R4Z3LoLJMgdfAxpsFtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

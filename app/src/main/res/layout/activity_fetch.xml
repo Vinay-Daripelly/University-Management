@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgsignup"
+    android:orientation="vertical"
+     android:gravity="center_horizontal"
+    android:visibility="visible"
+
+    tools:context=".FetchActivity">
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="select one"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/white"
+        android:minHeight="32dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <Button
+        android:id="@+id/connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:onClick="getConnection"
+        android:text="get Query result"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:gravity="left|center_horizontal"
+        android:layout_height="wrap_content"
+
+        android:hint="Output:"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:visibility="visible" />
+</androidx.appcompat.widget.LinearLayoutCompat>
